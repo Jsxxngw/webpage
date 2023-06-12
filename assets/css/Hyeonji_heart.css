@@ -1,0 +1,157 @@
+  .container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100vh;
+    }
+    
+    .heart {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    cursor: pointer;
+    color: rgb(226, 71, 97);
+    }
+    
+    .heart img {
+    width: 1.5vw;
+    height: auto;
+    
+    }
+    
+    .heart span {
+    margin-right: 8px;
+    position: absolute;
+    transform: translate(-140%, 0%);
+    font-size: 1.5vw;
+    }
+
+    @media screen and (max-width: 1680px) {
+      .heart img {
+        width: 1.vw;
+      }
+    
+      .heart span {
+        font-size: 1.6vw;
+      }
+    }
+
+    @media screen and (max-width: 1500px) {
+      .heart img {
+        width: 1.8vw;
+      }
+    
+      .heart span {
+        font-size: 1.8vw;
+      }
+    }
+    
+    @media screen and (max-width: 1300px) {
+      .heart img {
+        width: 2vw;
+      }
+    
+      .heart span {
+        font-size: 2vw;
+      }
+    }
+    @media screen and (max-width: 1100px) {
+      .heart img {
+        width: 2.5vw;
+      }
+    
+      .heart span {
+        font-size: 2vw;
+      }
+    }
+    @media screen and (max-width: 890px) {
+      .heart img {
+        width: 2.7vw;
+      }
+    
+      .heart span {
+        font-size: 2.7vw;
+      }
+    }
+    @media screen and (max-width: 745px) {
+      .heart img {
+        width: 3.5vw;
+      }
+    
+      .heart span {
+        font-size: 3.5vw;
+      }
+    }
+
+    
+    @media screen and (max-width: 610px) {
+      .heart img {
+        width: 4vw;
+      }
+    
+      .heart span {
+        font-size: 4vw;
+      }
+    }
+
+    @media screen and (max-width: 480px) {
+      .heart img {
+        width: 5vw;
+      }
+    
+      
+    .heart span {
+      font-size: 5vw;
+    }
+
+
+    @media screen and (max-width: 630px) {
+      .heart img {
+        width: 4vw;
+      }
+    
+        
+      .heart span {
+        font-size: 4vw;
+      }
+    }
+    
+
+
+    @media screen and (max-width: 580px) {
+      .heart img {
+        width: 4.5vw;
+      }
+    
+    
+      .heart span {
+        font-size: 4.5vw;
+      }
+    }
+  
+
+    @media screen and (max-width: 480px) {
+      .heart img {
+        width: 5vw;
+      }
+    
+        
+      .heart span {
+        font-size: 5vw;
+      }
+    }
+
+
+    @media screen and (max-width: 400px) {
+      .heart img {
+        width: 5.8vw;
+      
+    
+    
+      .heart span {
+        font-size: 5.8vw;
+      }
+    }
+    
+  
