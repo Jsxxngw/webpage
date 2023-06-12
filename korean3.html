@@ -1,0 +1,475 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>대박삼겹김치찜&초대박등갈비김치찜</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/Hyeonji_heart.css" />
+
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="index.html" class="logo"><strong>심현지 • 장승원 </strong>by 표준웹테크놀로지</a>
+									
+									<ul class="icons">
+										<div><button onclick="showSharePopup()">Share</button></div>
+
+									<div id="sharePopup" class="share-popup">
+									  <div class="share-popup-content">
+										<input id="shareLink" type="text" class="share-popup-input" value="https://naver.me/Ft8jGAQ8">
+										<button class="share-popup-button" onclick="copyLink()">Copy</button>
+										<button class="share-popup-button" onclick="hideSharePopup()">Close</button>
+									  </div>
+									</div>
+									</ul>
+								</header>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>대박삼겹김치찜&초대박등갈비김치찜</h1>						
+									</header>
+
+									<!-- 메인메뉴 -->
+										<h2 id="content">김치찜</h2>
+										<div class="posts">
+											<article>
+												<a href="#" class="menuimage"><img src="images/김치찜/묵은지목살스테이크.jpg" alt="" /></a>
+												<div style="display: flex; justify-content: flex-end; align-items: center;">
+													<div style="flex-grow: 1;"></div>
+													<div class="heart" onclick="incrementLikeCount(this)">
+													<img src="images/heart_icon.png" alt="Heart Icon" />
+													<span id="likeCount">0</span>
+													</div>
+												</div>
+												<p style="margin-bottom: 0px;">국내에서 제조한 김치</p>
+												<h3>묵은지목살스테이크</h3>												
+												<ul class="actions">
+													<li><button class="color-change" onclick="toggleButton(this)">기본맛</button></li>
+													<li><button class="color-change" onclick="toggleButton(this)">매운맛</button></li>
+												</ul>
+												<div style="margin-bottom: 10px;">
+													<select>
+													<option><button>인분</button></option>
+													<option><button>2인분: 26,000원</button></option>
+													<option><button>3인분: 39,000원</button></option>
+													<option><button>4인분: 52,000원</button></option>
+													</select>
+												</div>
+												<div>
+													<select>
+													<option><button>추가</button></option>
+													<option><button>목살: 8,000원</button></option>
+													<option><button>찜 [삼겹 고기 추가]: 8,000원</button></option>
+													<option><button>짬 [김치 추가]: 7,000원</button></option>
+													<option><button>두부 6조각: 1,500원</button></option>
+													</select>
+												</div>	
+											</article>
+											<article>
+												<a href="#" class="menuimage"><img src="images/김치찜/등갈비김치찜.jpg" alt="" /></a>
+												<div style="display: flex; justify-content: flex-end; align-items: center;">
+													<div style="flex-grow: 1;"></div>
+													<div class="heart" onclick="incrementLikeCount(this)">
+													<img src="images/heart_icon.png" alt="Heart Icon" />
+													<span id="likeCount">0</span>
+													</div>
+												</div>
+												<p style="margin-bottom: 0px;">국내에서 제조한 김치</p>
+												<h3>묵은지등갈비스테이크</h3>												
+												<ul class="actions">
+													<li><button class="color-change" onclick="toggleButton(this)">기본맛</button></li>
+													<li><button class="color-change" onclick="toggleButton(this)">매운맛</button></li>
+												</ul>
+												<div style="margin-bottom: 10px;">
+													<select>
+													<option><button>인분(에 맞춰 밥 제공)</button></option>
+													<option><button>2인분: 29,000원</button></option>
+													<option><button>3인분: 43,500원</button></option>
+													<option><button>4인분: 57,000원</button></option>
+													</select>
+												</div>
+												<div>
+													<select>
+													<option><button>추가</button></option>
+													<option><button>목살: 8,000원</button></option>
+													<option><button>찜 [삼겹 고기 추가]: 8,000원</button></option>
+													<option><button>짬 [김치 추가]: 7,000원</button></option>
+													<option><button>두부 6조각: 1,500원</button></option>
+													</select>
+												</div>	
+											</article>
+											<article>
+												<a href="#" class="menuimage"><img src="images/김치찜/삼겹김치찜.jpg" alt="" /></a>
+												<div style="display: flex; justify-content: flex-end; align-items: center;">
+													<div style="flex-grow: 1;"></div>
+													<div class="heart" onclick="incrementLikeCount(this)">
+													<img src="images/heart_icon.png" alt="Heart Icon" />
+													<span id="likeCount">0</span>
+													</div>
+												</div>
+												<p style="margin-bottom: 0px;">국내에서 제조한 김치</p>
+												<h3>묵은지삼겹김치찜</h3>												
+												<ul class="actions">
+													<li><button class="color-change" onclick="toggleButton(this)">기본맛</button></li>
+													<li><button class="color-change" onclick="toggleButton(this)">매운맛</button></li>
+												</ul>
+												<div style="margin-bottom: 10px;">
+													<select>
+													<option><button>인분(에 맞춰 밥 제공)</button></option>
+													<option><button>2인분: 26,000원</button></option>
+													<option><button>3인분: 39,000원</button></option>
+													<option><button>4인분: 52,000원</button></option>
+													</select>
+												</div>
+												<div>
+													<select>
+													<option><button>추가</button></option>
+													<option><button>목살: 8,000원</button></option>
+													<option><button>찜 [삼겹 고기 추가]: 8,000원</button></option>
+													<option><button>짬 [김치 추가]: 7,000원</button></option>
+													<option><button>두부 6조각: 1,500원</button></option>
+													</select>
+												</div>	
+											</article>
+											<article>
+												<a href="#" class="menuimage"><img src="images/김치찜/칼칼한 돼지김치찌개.jpg" alt="" /></a>
+												<div style="display: flex; justify-content: flex-end; align-items: center;">
+													<div style="flex-grow: 1;"></div>
+													<div class="heart" onclick="incrementLikeCount(this)">
+													<img src="images/heart_icon.png" alt="Heart Icon" />
+													<span id="likeCount">0</span>
+													</div>
+												</div>
+												<h3>칼칼한 돼지김치찌개</h3>
+												<p style="margin-bottom: 17px;">밥+김+반찬 2종(오뎅볶음,콩나물무침)</p>												
+												<ul class="actions">
+													<li><button class="color-change" onclick="toggleButton(this)">기본</button></li>
+													<li><button class="color-change" onclick="toggleButton(this)">칼칼하게</button></li>
+												</ul>
+												<div style="margin-bottom: 10px;">
+													<select>
+													<option><button>인분(에 맞춰 밥 제공)</button></option>
+													<option><button>2인분: 16,000원</button></option>
+													<option><button>3인분: 25,000원</button></option>
+													</select>
+												</div>
+												<div>
+													<select>
+													<option><button>추가</button></option>
+													<option><button>돼지고기 100g: 3,000원</button></option>
+													<option><button>돼지고기 200g: 5,000원</button></option>
+													<option><button>두부 5조각: 1,000원</button></option>
+													<option><button>공기밥: 1,000원</button></option>
+													</select>
+												</div>	
+											</article>
+										</div>
+									
+									<!--1인 세트 메뉴 -->
+										<h2 id="content">1인세트메뉴</h2>
+										<div class="posts">
+											<article>
+												<a href="#" class="menuimage"><img src="images/김치찜/묵은지목살스테이크.jpg" alt="" /></a>
+												<div style="display: flex; justify-content: flex-end; align-items: center;">
+													<div style="flex-grow: 1;"></div>
+													<div class="heart" onclick="incrementLikeCount(this)">
+													<img src="images/heart_icon.png" alt="Heart Icon" />
+													<span id="likeCount">0</span>
+													</div>
+												</div>
+												<h3>묵은지목살스테이크 1인분세트</h3>	
+												<p style="margin-bottom: 17px;">밥+후라이+햄1조각: 15,000원</p>											
+												<ul class="actions">
+													<li><button class="color-change" onclick="toggleButton(this)">기본맛</button></li>
+													<li><button class="color-change" onclick="toggleButton(this)">매운맛</button></li>
+												</ul>
+												<div>
+													<select>
+													<option><button>추가</button></option>	
+													<option><button>반찬+김 추가</button></option>
+													</select>
+												</div>
+											</article>
+											<article>
+												<a href="#" class="menuimage"><img src="images/김치찜/등갈비김치찜.jpg" alt="" /></a>
+												<div style="display: flex; justify-content: flex-end; align-items: center;">
+													<div style="flex-grow: 1;"></div>
+													<div class="heart" onclick="incrementLikeCount(this)">
+													<img src="images/heart_icon.png" alt="Heart Icon" />
+													<span id="likeCount">0</span>
+													</div>
+												</div>
+												<h3>등갈비김치찜 1인분세트</h3>
+												<p style="margin-bottom: 17px;">밥+후라이+햄1조각: 17,000원</p>													
+												<ul class="actions">
+													<li><button class="color-change" onclick="toggleButton(this)">기본맛</button></li>
+													<li><button class="color-change" onclick="toggleButton(this)">매운맛</button></li>
+												</ul>
+												<div>
+													<select>
+													<option><button>추가</button></option>	
+													<option><button>반찬+김 추가</button></option>
+													</select>
+												</div>
+											</article>
+											<article>
+												<a href="#" class="menuimage"><img src="images/김치찜/삼겹김치찜.jpg" alt="" /></a>
+												<div style="display: flex; justify-content: flex-end; align-items: center;">
+													<div style="flex-grow: 1;"></div>
+													<div class="heart" onclick="incrementLikeCount(this)">
+													<img src="images/heart_icon.png" alt="Heart Icon" />
+													<span id="likeCount">0</span>
+													</div>
+												</div>
+												<h3>묵은지삼겹김치찜</h3>	
+												<p style="margin-bottom: 17px;">밥+후라이+햄1조각: 15,000원</p>											
+												<ul class="actions">
+													<li><button class="color-change" onclick="toggleButton(this)">기본맛</button></li>
+													<li><button class="color-change" onclick="toggleButton(this)">매운맛</button></li>
+												</ul>
+												<div>
+													<select>
+													<option><button>추가</button></option>	
+													<option><button>반찬+김 추가</button></option>
+													</select>
+												</div>
+											</article>										
+										</div>
+									<hr class="major" />
+									
+									<!--사이드 메뉴 -->
+										<h2 id="content">사이드 메뉴</h2>
+										<div class="posts">
+											<article>
+												<a href="#" class="menuimage"><img src="images/김치찜/계란말이.jpg" alt="" /></a>
+												<div style="display: flex; justify-content: flex-end; align-items: center;">
+													<div style="flex-grow: 1;"></div>
+													<div class="heart" onclick="incrementLikeCount(this)">
+													<img src="images/heart_icon.png" alt="Heart Icon" />
+													<span id="likeCount">0</span>
+													</div>
+												</div>
+												<h3>계란말이</h3>	
+												<p style="margin-bottom: 0px;">6,000원</p>																						
+											</article>
+											<article>
+												<a href="#" class="menuimage"><img src="images/김치찜/리챔.jpg" alt="" /></a>
+												<div style="display: flex; justify-content: flex-end; align-items: center;">
+													<div style="flex-grow: 1;"></div>
+													<div class="heart" onclick="incrementLikeCount(this)">
+													<img src="images/heart_icon.png" alt="Heart Icon" />
+													<span id="likeCount">0</span>
+													</div>
+												</div>
+												<h3>리챔3개</h3>	
+												<p style="margin-bottom: 0px;">3,000원</p>																						
+											</article>
+										</div>
+									<hr class="major" />
+
+									<!--주류 메뉴 -->
+										<h2 id="content">주류 메뉴</h2>
+										<p style="margin-bottom: 17px;">다른메뉴와 함께 구매</p>
+										<div class="posts">
+											<article>
+												<h3>참이슬 후레쉬</h3>
+												<p>4,000원</p>																							
+											</article>
+											<article>
+												<h3>카스</h3>
+												<p>4,000원</p>	
+											</article>
+										</div>	
+									<hr class="major" />	
+									
+									<!--원산지-->
+										<h3 id="content">원산지</h3>
+										<p>묵은지(배추:국내산, 고춧가루:중국산), 쌀(국내산), 수제돈까스(돼지고기:국내산), 삼겹김치찜(돼지고기:네덜란드), 
+											목살스테이크김치찜(돼지고기: 덴마크산), 등갈비김치찜(돼지고기:미국산), 두부(콩:수입산), 리챔(돼지고기: 외국산), 
+											김치찌개(배추:중국산, 고춧가루:중국산, 돼지고기:오스트리아산)</p>
+										<div class="posts"></div>
+									
+
+									<!--아래한줄평-->
+										<h2 id="content">한줄평</h2>
+										<div class="posts"></div>	
+
+								</section>
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Search -->
+								<section id="search" class="alt">
+									<form method="post" action="#">
+										<input type="text" name="query" id="query" placeholder="Search" />
+									</form>
+								</section>
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<!--한식 식당-->
+										<li>
+											<span class="opener">한식</span>
+											<ul>
+												<li><a href="sub1.html">한식</a></li>
+											<ul>
+												<li><a href="korean1.html">고기택배가는남자</a></li>
+												<li><a href="korean2.html">와우 소문난 감자탕</a></li>
+												<li><a href="korean3.html">대박삼겹김치찜&초대박등갈비김치찜</a></li>
+												<li><a href="korean4.html">금계찜닭</a></li>
+											</ul>
+											</ul>
+										</li>
+										<li><a href="#">중식</a></li>
+										<li><a href="#">양식</a></li>
+										
+										<li>
+											<span class="opener">일식</span>
+											<ul>
+												<li><a href="horang.html">호랑우동</a></li>
+											</ul>
+										</li>
+										<!--패스트푸드 식당-->
+										<li>
+											<span class="opener">패스트푸드</span>
+											<ul>
+												<li><a href="sub2.html">패스트푸드</a></li>
+											<ul>
+												<li><a href="fastfood1.html">밀플랜비</a></li>
+												<li><a href="fastfood2.html">부리또앤</a></li>
+												<li><a href="fastfood3.html">에그벅</a></li>
+											</ul>
+											</ul>
+										</li>
+										<!--다이어트 식-->
+										<li>
+											<span class="opener">다이어트식</span>
+											<ul>
+												<li><a href="sub3.html">다이어트식</a></li>
+											<ul>
+												<li><a href="cafe1.html">카페수</a></li>
+												<li><a href="cafe2.html">하루</a></li>
+											</ul>
+											</ul>
+										</li>
+										<li><a href="#">술집</a></li>
+									</ul>
+								</nav>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>오늘의 학식</h2>
+									</header>
+									<div class="mini-posts">
+										<article>
+											<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
+											<h3>천원의 밥상</h3>
+											<p>밥, 부대찌개, 계란찜, 광천김, 김치</p>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic08.jpg" alt="" /></a>
+											<h3>중식</h3>
+											<p>꼬막비빔밥, 양념장, 된장찌개, 감자샐러드, 김치</p>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic09.jpg" alt="" /></a>
+											<h3>석식</h3>
+											<p>밥, 김치찌개, 갈치구이, 연두부, 양념장, 감자크로켓, 깍두기, 파인애플</p>
+										</article>
+									</div>
+								</section>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>숨은 맛집을 알려주세요</h2>
+									</header>
+									<p>학교 근처 맛집을 학우들과 함께 공유하고 싶은 분은 밑 이메일로 보내주세요</p>
+									<ul class="contact">
+										<li class="icon solid fa-envelope"><a href="#">information@cau.co.kr</a></li>
+										<li class="icon solid fa-phone">(010) 123-4567</li>
+										<li class="icon solid fa-home">학교 주소<br />
+										Nashville, TN 00000-0000</li>
+									</ul>
+								</section>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; Untitled. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/Hyeonji_heart.js"></script>
+			
+			<script>
+				let activeButton = null;
+			
+				function toggleButton(button) {
+				  if (button === activeButton) {
+					button.classList.remove("active");
+					activeButton = null;
+				  } else {
+					if (activeButton) {
+					  activeButton.classList.remove("active");
+					}
+					button.classList.add("active");
+					activeButton = button;
+				  }
+				}
+			</script>
+
+			<script>
+				function showSharePopup() {
+					var popup = document.getElementById("sharePopup");
+					popup.classList.add("active");
+				}
+
+				function hideSharePopup() {
+					var popup = document.getElementById("sharePopup");
+					popup.classList.remove("active");
+				}
+
+				function copyLink() {
+					var input = document.getElementById("shareLink");
+					input.select();
+					document.execCommand('copy');
+				// 복사 버튼 클릭 후의 추가 동작을 여기에 작성할 수 있습니다.
+				}
+			</script>		
+</html>

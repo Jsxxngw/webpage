@@ -1,0 +1,630 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>카페수</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/Hyeonji_heart.css" />
+
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="index.html" class="logo"><strong>심현지 • 장승원 </strong>by 표준웹테크놀로지</a>
+									
+									<ul class="icons">
+										<div><button onclick="showSharePopup()">Share</button></div>
+
+									<div id="sharePopup" class="share-popup">
+									  <div class="share-popup-content">
+										<input id="shareLink" type="text" class="share-popup-input" value="https://naver.me/54VnZ4Kp">
+										<button class="share-popup-button" onclick="copyLink()">Copy</button>
+										<button class="share-popup-button" onclick="hideSharePopup()">Close</button>
+									  </div>
+									</div>
+									</ul>
+								</header>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>카페수</h1>						
+									</header>
+
+									<!-- 메인메뉴 -->
+										<h2 id="content">샐러드</h2>
+										<div class="posts">
+											<article>
+												<a href="#" class="menuimage"><img src="images/카페수/닭가슴살샐러드.jpg" alt="" /></a>
+												<div style="display: flex; justify-content: flex-end; align-items: center">
+													<div style="flex-grow: 1;"></div>
+													<div class="heart" onclick="incrementLikeCount(this)">
+													<img src="images/heart_icon.png" alt="Heart Icon" />
+													<span id="likeCount">0</span>
+													</div>
+												</div>
+												<h3>닭가슴살 샐러드</h3>	
+												<p style="margin-bottom: 0px;">무염닭가슴살 80g+양상추+계란+토마토+아몬드</p><br>
+												<p> 7,500원</p>
+												<div style="margin-bottom: 10px;">
+													<select>
+													<option><button>소스 선택</button></option>
+													<option><button>오리엔탈</button></option>
+													<option><button>어니언</button></option>
+													<option><button>이탈리안발사믹</button></option>
+													<option><button>칠리오리엔탈</button></option>
+													<option><button>허니머스타드</button></option>
+													<option><button>참깨드레싱</button></option>
+													</select>
+												</div>
+												<div style="margin-bottom: 10px;">
+													<select>
+													<option><button>제외 선택</button></option>
+													<option><button>토마토 제외</button></option>
+													<option><button>아몬드 제외</button></option>
+													<option><button>계란 제외</button></option>
+													<option><button>양파 제외</button></option>
+													</select>
+												</div>
+												<div>
+													<select>
+													<option><button>추가 선택</button></option>
+													<option><button>닭가슴살 50g추가: 1,500원</button></option>
+													<option><button>닭가슴살 100g추가: 2,500원</button></option>
+													<option><button>양상추 따로 한통 추가: 2,500원</button></option>
+													<option><button>드레싱 추가: 1,000원</button></option>
+													<option><button>올리브 추가: 1,000원</button></option>
+													<option><button>단호박 100g추가: 2,000원</button></option>
+													<option><button>양송아컵스프 350ml 추가: 3,000원</button></option>
+													<option><button>파마산 추가: 500원</button></option>
+													</select>
+												</div>	
+											</article>
+											<article>
+												<a href="#" class="menuimage"><img src="images/카페수/샐러드파스타.jpg" alt="" /></a>
+												<div style="display: flex; justify-content: flex-end; align-items: center">
+													<div style="flex-grow: 1;"></div>
+													<div class="heart" onclick="incrementLikeCount(this)">
+													<img src="images/heart_icon.png" alt="Heart Icon" />
+													<span id="likeCount">0</span>
+													</div>
+												</div>
+												<h3>샐러드 파스타</h3>
+												<p>파스타면+양상추+계란+토마토+양파</p><br>
+												<p> 7,500원</p>
+												<div style="margin-bottom: 10px;">
+													<select>
+													<option><button>제외 선택</button></option>
+													<option><button>토마토 제외</button></option>
+													<option><button>옥수수 제외</button></option>
+													<option><button>계란 제외</button></option>
+													<option><button>양파 제외</button></option>
+													<option><button>치즈가루 제외</button></option>
+													</select>
+												</div>
+												<div>
+													<select>
+													<option><button>추가 선택</button></option>
+													<option><button>계란 추가: 500원</button></option>
+													<option><button>양파 추가: 500원</button></option>
+													<option><button>드레싱 추가: 1,000원</button></option>
+													<option><button>면 + 드레싱 추가: 2,500원</button></option>
+													<option><button>파마산 4g 추가: 500원</button></option>
+													<option><button>양송아컵스프 350ml 추가: 3,000원</button></option>
+													</select>
+												</div>	
+											</article>
+											<article>
+												<a href="#" class="menuimage"><img src="images/카페수/리코타치즈샐러드.jpg" alt="" /></a>
+												<div style="display: flex; justify-content: flex-end; align-items: center">
+													<div style="flex-grow: 1;"></div>
+													<div class="heart" onclick="incrementLikeCount(this)">
+													<img src="images/heart_icon.png" alt="Heart Icon" />
+													<span id="likeCount">0</span>
+													</div>
+												</div>
+												<h3>리코다치즈 샐러드</h3>
+												<p >추천 드레싱: 발사믹</p><br>
+												<p> 7,500원</p>
+												<div style="margin-bottom: 10px;">
+													<select>
+													<option><button>소스 선택</button></option>
+													<option><button>오리엔탈</button></option>
+													<option><button>어니언</button></option>
+													<option><button>이탈리안발사믹</button></option>
+													<option><button>칠리오리엔탈</button></option>
+													<option><button>허니머스타드</button></option>
+													<option><button>참깨드레싱</button></option>
+													</select>
+												</div>
+												<div style="margin-bottom: 10px;">
+													<select>
+													<option><button>제외 선택</button></option>
+													<option><button>토마토 제외</button></option>
+													<option><button>올리브 제외</button></option>
+													<option><button>계란 제외</button></option>
+													<option><button>양파 제외</button></option>
+													<option><button>드레싱 제외</button></option>
+													</select>
+												</div>
+												<div>
+													<select>
+													<option><button>추가 선택</button></option>
+													<option><button>닭가슴살 50g추가: 1,000원</button></option>
+													<option><button>닭가슴살 100g추가: 2,000원</button></option>
+													<option><button>리코다치즈 100g추가: 2,000원</button></option>
+													<option><button>계란 추가: 500원</button></option>
+													<option><button>드레싱 추가: 1,000원</button></option>
+													<option><button>올리브 추가: 1,000원</button></option>
+													</select>
+												</div>
+											</article>
+										</div>
+									<hr class="major" />
+									
+									<!--버거 메뉴 -->
+										<h2 id="content">샌드위치/버거 메뉴</h2>
+										<div class="posts">
+											<article>
+												<a href="#" class="menuimage"><img src="images/카페수/닭가슴살버거.jpg" alt="" /></a>
+												<div style="display: flex; justify-content: flex-end; align-items: center">
+													<div style="flex-grow: 1;"></div>
+													<div class="heart" onclick="incrementLikeCount(this)">
+													<img src="images/heart_icon.png" alt="Heart Icon" />
+													<span id="likeCount">0</span>
+													</div>
+												</div>
+												<h3>닭가슴살 버거</h3>
+												<p>닭가슴살+토마토+치즈+아몬드+양상추</p><br>
+												<div style="margin-bottom: 10px;">
+													<select>
+													<option><button>빵 선택</button></option>	
+													<option><button>버거빵: 5,500원</button></option>
+													<option><button>호밀빵: 6,000원</button></option>
+													<option><button>식빵: 5,500원</button></option>
+													</select>
+												</div>	
+												<div style="margin-bottom: 10px;">
+													<select>
+													<option><button>제외 선택</button></option>
+													<option><button>양상추 제외</button></option>
+													<option><button>토마토 제외</button></option>
+													<option><button>아몬드 제외</button></option>
+													<option><button>치즈 제외</button></option>
+													</select>
+												</div>
+												<div>
+													<select>
+													<option><button>추가 선택</button></option>
+													<option><button>치즈 추가: 500원</button></option>
+													<option><button>양파 추가: 500원</button></option>
+													<option><button>닭가슴살 추가: 1,000원</button></option>
+													<option><button>햄 추가: 1,000원</button></option>
+													</select>
+												</div>																						
+											</article>
+											<article>
+												<a href="#" class="menuimage"><img src="images/카페수/닭가슴살랩.jpg" alt="" /></a>
+												<div style="display: flex; justify-content: flex-end; align-items: center">
+													<div style="flex-grow: 1;"></div>
+													<div class="heart" onclick="incrementLikeCount(this)">
+													<img src="images/heart_icon.png" alt="Heart Icon" />
+													<span id="likeCount">0</span>
+													</div>
+												</div>
+												<h3>달가슴살 랩</h3>
+												<p style="margin-bottom: 0px;">닭가슴살+토마토+양파+양상추+치즈</p>
+												<p>6,500원</p>
+												<ul class="actions">
+													<li><button class="color-change" onclick="toggleButton(this)">스위트칠리</button></li>
+													<li><button class="color-change" onclick="toggleButton(this)">데리야키</button></li>
+												</ul>
+												<div style="margin-bottom: 10px;">
+													<select>
+													<option><button>제외 선택</button></option>
+													<option><button>양파 제외</button></option>
+													<option><button>토마토 제외</button></option>
+													<option><button>치즈 제외</button></option>
+													<option><button>소스 제외</button></option>
+													</select>
+												</div>
+												<div>
+													<select>
+													<option><button>추가 선택</button></option>
+													<option><button>치즈 추가: 500원</button></option>
+													<option><button>햄 추가: 1,000원</button></option>
+													</select>
+												</div>																							
+											</article>
+											<article>
+												<a href="#" class="menuimage"><img src="images/카페수/수샌드위치.jpg" alt="" /></a>
+												<div style="display: flex; justify-content: flex-end; align-items: center">
+													<div style="flex-grow: 1;"></div>
+													<div class="heart" onclick="incrementLikeCount(this)">
+													<img src="images/heart_icon.png" alt="Heart Icon" />
+													<span id="likeCount">0</span>
+													</div>
+												</div>
+												<h3>수 샌드위치</h3>
+												<p>야채+햄+치즈+계란+특제소스</p><br>
+												<div style="margin-bottom: 10px;">
+													<select>
+													<option><button>빵 선택</button></option>	
+													<option><button>호밀빵: 7,000원</button></option>
+													<option><button>식빵: 6,500원</button></option>
+													</select>
+												</div>	
+												<div style="margin-bottom: 10px;">
+													<select>
+													<option><button>제외 선택</button></option>
+													<option><button>햄 제외</button></option>
+													<option><button>계란 제외</button></option>
+													<option><button>치즈 제외</button></option>
+													<option><button>토마토 제외</button></option>
+													<option><button>홀그레인 마요네즈 > 머스타드</button></option>
+													<option><button>모든 소스 제외</button></option>
+													</select>
+												</div>
+												<div>
+													<select>
+													<option><button>추가 선택</button></option>
+													<option><button>치즈 추가: 500원</button></option>
+													<option><button>양파 추가: 500원</button></option>
+													<option><button>햄 추가: 1,000원</button></option>
+													</select>
+												</div>																										
+											</article>
+											<article>
+												<a href="#" class="menuimage"><img src="images/카페수/살라미무화과샌드위치.jpg" alt="" /></a>
+												<div style="display: flex; justify-content: flex-end; align-items: center">
+													<div style="flex-grow: 1;"></div>
+													<div class="heart" onclick="incrementLikeCount(this)">
+													<img src="images/heart_icon.png" alt="Heart Icon" />
+													<span id="likeCount">0</span>
+													</div>
+												</div>
+												<h3>살라미 무화과 샌드위치</h3><br>
+												<div style="margin-bottom: 10px;">
+													<select>
+													<option><button>빵 선택</button></option>	
+													<option><button>호밀빵: 7,600원</button></option>
+													<option><button>식빵: 7,200원</button></option>
+													</select>
+												</div>	
+												<div>
+													<select>
+													<option><button>제외 선택</button></option>
+													<option><button>양파 제외</button></option>
+													<option><button>치즈 제외</button></option>
+													<option><button>토마토 제외</button></option>
+													</select>
+												</div>
+											</article>
+											<article>
+												<a href="#" class="menuimage"><img src="images/카페수/칠리닭가슴살샌드위치.jpg" alt="" /></a>
+												<div style="display: flex; justify-content: flex-end; align-items: center">
+													<div style="flex-grow: 1;"></div>
+													<div class="heart" onclick="incrementLikeCount(this)">
+													<img src="images/heart_icon.png" alt="Heart Icon" />
+													<span id="likeCount">0</span>
+													</div>
+												</div>
+												<h3>칠리 닭가슴살 샌드위치</h3>
+												<p>양상추+토마토+달가슴살+치즈</p>
+												<div style="margin-bottom: 10px;">
+													<select>
+													<option><button>빵 선택</button></option>	
+													<option><button>호밀빵: 7,500원</button></option>
+													<option><button>식빵: 7,000원</button></option>
+													</select>
+												</div>	
+												<div style="margin-bottom: 10px;">
+													<select>
+													<option><button>제외 선택</button></option>
+													<option><button>치즈 제외</button></option>
+													<option><button>토마토 제외</button></option>
+													</select>
+												</div>
+												<div>
+													<select>
+													<option><button>추가 선택</button></option>
+													<option><button>아몬드 추가: 500원</button></option>
+													<option><button>계란 추가: 500원</button></option>
+													<option><button>햄 추가: 1,000원</button></option>
+													<option><button>치즈 추가: 500원</button></option>
+													<option><button>양파 추가: 500원</button></option>
+													<option><button>닭가슴살 추가: 1,000원</button></option>
+													<option><button>바질스프레드 추가: 1,000원</button></option>
+													</select>
+												</div>																										
+											</article>											
+										</div>
+									<hr class="major" />
+									
+									<!--사이드 메뉴 -->
+										<h2 id="content">파니니</h2>
+										<div class="posts">
+											<article>
+												<a href="#" class="menuimage"><img src="images/카페수/바질파니니.jpg" alt="" /></a>
+												<div style="display: flex; justify-content: flex-end; align-items: center">
+													<div style="flex-grow: 1;"></div>
+													<div class="heart" onclick="incrementLikeCount(this)">
+													<img src="images/heart_icon.png" alt="Heart Icon" />
+													<span id="likeCount">0</span>
+													</div>
+												</div>
+												<h3>바질토마토모짜렐라 파니니</h3>
+												<div style="margin-bottom: 10px;">
+													<select>
+													<option><button>빵 선택</button></option>	
+													<option><button>치아바타: 7,000원</button></option>
+													<option><button>식빵: 6,500원</button></option>
+													</select>
+												</div>	
+												<div style="margin-bottom: 10px;">
+													<select>
+													<option><button>제외 선택</button></option>
+													<option><button>햄 제외</button></option>
+													</select>
+												</div>
+												<div>
+													<select>
+													<option><button>추가 선택</button></option>
+													<option><button>햄 추가: 700원</button></option>
+													<option><button>체다치즈 추가: 500원</button></option>
+													<option><button>양파 추가: 500원</button></option>
+													</select>
+												</div>																														
+											</article>
+											<article>
+												<a href="#" class="menuimage"><img src="images/카페수/햄에그모짜렐라파니니.jpg" alt="" /></a>
+												<div style="display: flex; justify-content: flex-end; align-items: center">
+													<div style="flex-grow: 1;"></div>
+													<div class="heart" onclick="incrementLikeCount(this)">
+													<img src="images/heart_icon.png" alt="Heart Icon" />
+													<span id="likeCount">0</span>
+													</div>
+												</div>
+												<h3>햄에그모짜렐라 파니니</h3>
+												<div style="margin-bottom: 10px;">
+													<select>
+													<option><button>빵 선택</button></option>	
+													<option><button>치아바타: 7,400원</button></option>
+													<option><button>식빵: 6,900원</button></option>
+													</select>
+												</div>	
+												<div style="margin-bottom: 10px;">
+													<select>
+													<option><button>제외 선택</button></option>
+													<option><button>양파 제외</button></option>
+													</select>
+												</div>
+												<div>
+													<select>
+													<option><button>추가 선택</button></option>
+													<option><button>햄 추가: 700원</button></option>
+													<option><button>체다치즈 추가: 500원</button></option>
+													<option><button>양파 추가: 500원</button></option>
+													</select>
+												</div>																														
+											</article>
+											<article>
+												<a href="#" class="menuimage"><img src="images/카페수/매콤바질치킨파니니.jpg" alt="" /></a>
+												<div style="display: flex; justify-content: flex-end; align-items: center">
+													<div style="flex-grow: 1;"></div>
+													<div class="heart" onclick="incrementLikeCount(this)">
+													<img src="images/heart_icon.png" alt="Heart Icon" />
+													<span id="likeCount">0</span>
+													</div>
+												</div>
+												<h3>매콤바질치킨 파니니</h3>
+												<ul class="actions">
+													<li><button class="color-change" onclick="toggleButton(this)">바질소스</button></li>
+													<li><button class="color-change" onclick="toggleButton(this)">치즈소스</button></li>
+												</ul>
+												<div style="margin-bottom: 10px;">
+													<select>
+													<option><button>빵 선택</button></option>	
+													<option><button>치아바타: 7,400원</button></option>
+													<option><button>식빵: 6,900원</button></option>
+													</select>
+												</div>	
+												<div>
+													<select>
+													<option><button>추가 선택</button></option>
+													<option><button>햄 추가: 700원</button></option>
+													<option><button>체다치즈 추가: 500원</button></option>
+													<option><button>양파 추가: 500원</button></option>
+													</select>
+												</div>																								
+											</article>
+										</div>		
+									<hr class="major" />
+										<!--원산지-->
+										<h3 id="content">원산지</h3>
+										<p>닭가슴살버거(닭고기:국내산), 수샌드위치(돼지고기:국내산), 칠리닭가슴살샌드위치(닭고기:국내산),
+											 닭가슴살샐러드(닭고기:국내산), 살라미무화과샌드위치(돼지고기:국내산,미국산)</p>
+										<div class="posts"></div>
+									
+										
+									<!--아래한줄평-->
+										<h2 id="content">한줄평</h2>
+										<div class="posts"></div>	
+
+								</section>
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Search -->
+								<section id="search" class="alt">
+									<form method="post" action="#">
+										<input type="text" name="query" id="query" placeholder="Search" />
+									</form>
+								</section>
+
+							<<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<!--한식 식당-->
+										<li>
+											<span class="opener">한식</span>
+											<ul>
+												<li><a href="sub1.html">한식</a></li>
+											<ul>
+												<li><a href="korean1.html">고기택배가는남자</a></li>
+												<li><a href="korean2.html">와우 소문난 감자탕</a></li>
+												<li><a href="korean3.html">대박삼겹김치찜&초대박등갈비김치찜</a></li>
+												<li><a href="korean4.html">금계찜닭</a></li>
+											</ul>
+											</ul>
+										</li>
+										<li><a href="#">중식</a></li>
+										<li><a href="#">양식</a></li>
+										
+										<li>
+											<span class="opener">일식</span>
+											<ul>
+												<li><a href="horang.html">호랑우동</a></li>
+											</ul>
+										</li>
+										<!--패스트푸드 식당-->
+										<li>
+											<span class="opener">패스트푸드</span>
+											<ul>
+												<li><a href="sub2.html">패스트푸드</a></li>
+											<ul>
+												<li><a href="fastfood1.html">밀플랜비</a></li>
+												<li><a href="fastfood2.html">부리또앤</a></li>
+												<li><a href="fastfood3.html">에그벅</a></li>
+											</ul>
+											</ul>
+										</li>
+										<!--다이어트 식-->
+										<li>
+											<span class="opener">다이어트식</span>
+											<ul>
+												<li><a href="sub3.html">다이어트식</a></li>
+											<ul>
+												<li><a href="cafe1.html">카페수</a></li>
+												<li><a href="cafe2.html">하루</a></li>
+											</ul>
+											</ul>
+										</li>
+										<li><a href="#">술집</a></li>
+									</ul>
+								</nav>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>오늘의 학식</h2>
+									</header>
+									<div class="mini-posts">
+										<article>
+											<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
+											<h3>천원의 밥상</h3>
+											<p>밥, 부대찌개, 계란찜, 광천김, 김치</p>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic08.jpg" alt="" /></a>
+											<h3>중식</h3>
+											<p>꼬막비빔밥, 양념장, 된장찌개, 감자샐러드, 김치</p>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic09.jpg" alt="" /></a>
+											<h3>석식</h3>
+											<p>밥, 김치찌개, 갈치구이, 연두부, 양념장, 감자크로켓, 깍두기, 파인애플</p>
+										</article>
+									</div>
+								</section>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>숨은 맛집을 알려주세요</h2>
+									</header>
+									<p>학교 근처 맛집을 학우들과 함께 공유하고 싶은 분은 밑 이메일로 보내주세요</p>
+									<ul class="contact">
+										<li class="icon solid fa-envelope"><a href="#">information@cau.co.kr</a></li>
+										<li class="icon solid fa-phone">(010) 123-4567</li>
+										<li class="icon solid fa-home">학교 주소<br />
+										Nashville, TN 00000-0000</li>
+									</ul>
+								</section>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; Untitled. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/Hyeonji_heart.js"></script>
+			
+			<script>
+				let activeButton = null;
+			
+				function toggleButton(button) {
+				  if (button === activeButton) {
+					button.classList.remove("active");
+					activeButton = null;
+				  } else {
+					if (activeButton) {
+					  activeButton.classList.remove("active");
+					}
+					button.classList.add("active");
+					activeButton = button;
+				  }
+				}
+			</script>
+
+			<script>
+				function showSharePopup() {
+					var popup = document.getElementById("sharePopup");
+					popup.classList.add("active");
+				}
+
+				function hideSharePopup() {
+					var popup = document.getElementById("sharePopup");
+					popup.classList.remove("active");
+				}
+
+				function copyLink() {
+					var input = document.getElementById("shareLink");
+					input.select();
+					document.execCommand('copy');
+				// 복사 버튼 클릭 후의 추가 동작을 여기에 작성할 수 있습니다.
+				}
+			</script>		
+</html>

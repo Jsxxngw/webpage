@@ -1,0 +1,324 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>MainPage</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/Hyeonji_heart.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="index.html" class="logo"><strong>심현지 • 장승원 </strong>by 표준웹테크놀로지</a>
+									<ul class="icons">
+										<div><button onclick="showSharePopup()">Share</button></div>
+
+									<div id="sharePopup" class="share-popup">
+									  <div class="share-popup-content">
+										<input id="shareLink" type="text" class="share-popup-input" value="index.html">
+										<button class="share-popup-button" onclick="copyLink()">Copy</button>
+										<button class="share-popup-button" onclick="hideSharePopup()">Close</button>
+									  </div>
+									</div>
+									</ul>
+								</header>
+
+							<!-- Banner -->
+								<section id="banner">
+									<div class="content">
+										<header>
+											<h1>중앙대학교<br />
+											내리 맛집</h1>
+											<p>오늘은 뭘 먹지..</p>
+										</header>
+										<p>점심,저녁 고민은 이제 그만! 여기서 찾아보세요!!!</p>
+										
+									</div>
+									<span class="image object">
+										<img src="images/pic10.png" alt="" />
+									</span>
+								</section>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<div class="features">
+										<article>
+											<span class="icon solid fa-lemon"></span>
+											<div class="content">
+												<h3>한식</h3>
+												<p> 쌀밥에 국과 몇 가지 반찬을 곁들여 파는 한상 음식</p>
+											</div>
+										</article>
+										<article>
+											<span class="icon solid fa-fire"></span>
+											<div class="content">
+												<h3>중식</h3>
+												<p>중국 요리, 중화 요리를 줄여 말함</p>
+											</div>
+										</article>
+										<article>
+											<span class="icon solid fa-rocket"></span>
+											<div class="content">
+												<h3>패스트푸드</h3>
+												<p>신속하게 먹을 수 있고 음식의 맛이 균일한 음식</p>
+											</div>
+										</article>
+										<article>
+											<span class="icon solid fa-spinner"></span>
+											<div class="content">
+												<h3>다이어트식</h3>
+												<p>칼로리가 낮고 다이어트를 하는 사람을 위한 식사</p>
+											</div>
+										</article>
+									</div>
+								</section>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>추천 식당</h2>
+									</header>
+									<div class="posts">
+										<article>
+											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
+											<div style="display: flex; justify-content: flex-end; align-items: center;">
+												<div style="flex-grow: 1;"></div>
+												<div class="heart" onclick="incrementLikeCount(1)">
+												<img src="images/heart_icon.png" alt="Heart Icon" />
+												<span id="likeCount_1">0</span>
+												</div>
+											</div>
+											<h3>금계찜닭</h3>
+											<p>오늘은 후회 없는 선택, 기본 소스 금계 찜닭으로~!!
+												우리에겐 내일이 있잖아요!
+												드리는 즉시, 지금 여기가 안동!</p>
+											<ul class="actions">
+												<li><a href="korean4.html" class="button">More</a></li>
+											</ul>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
+											<div style="display: flex; justify-content: flex-end; align-items: center;">
+												<div style="flex-grow: 1;"></div>
+												<div class="heart" onclick="incrementLikeCount(2)">
+												<img src="images/heart_icon.png" alt="Heart Icon" />
+												<span id="likeCount_2">0</span>
+												</div>
+											</div>
+											<h3>에그벅</h3>
+											<p>스크럼블에그가 안느끼하게 맛있는 수제버거집!</p>
+											<ul class="actions">
+												<li><a href="fastfood3.html" class="button">More</a></li>
+											</ul>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+											<div style="display: flex; justify-content: flex-end; align-items: center;">
+												<div style="flex-grow: 1;"></div>
+												<div class="heart" onclick="incrementLikeCount(3)">
+												<img src="images/heart_icon.png" alt="Heart Icon" />
+												<span id="likeCount_3">0</span>
+												</div>
+											</div>
+											<h3>하루</h3>
+											<p>HARU: the day에서는 샐러드, 하루클린 도시락, 포케를 시원한 아메리카노, 상큼한 에이드와 함께 만나보실 수 있습니다!</p>
+											<ul class="actions">
+												<li><a href="cafe2.html" class="button">More</a></li>
+											</ul>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
+											<div style="display: flex; justify-content: flex-end; align-items: center;">
+												<div style="flex-grow: 1;"></div>
+												<div class="heart" onclick="incrementLikeCount(4)">
+												<img src="images/heart_icon.png" alt="Heart Icon" />
+												<span id="likeCount_4">0</span>
+												</div>
+											</div>
+											<h3>밀플랜비</h3>
+											<p>밀플랜비, 간단히 먹기 좋은 부리또 맛집</p>
+											<ul class="actions">
+												<li><a href="fastfood1.html" class="button">More</a></li>
+											</ul>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
+											<div style="display: flex; justify-content: flex-end; align-items: center;">
+												<div style="flex-grow: 1;"></div>
+												<div class="heart" onclick="incrementLikeCount(5)">
+												<img src="images/heart_icon.png" alt="Heart Icon" />
+												<span id="likeCount_5">0</span>
+												</div>
+											</div>
+											<h3>부리또앤</h3>
+											<p>브리또앤 안성중앙대점입니다. 신선한재료로 맛있는 브리또를 맛보세요</p>
+											<ul class="actions">
+												<li><a href="fastfood2.html" class="button">More</a></li>
+											</ul>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
+											<div style="display: flex; justify-content: flex-end; align-items: center;">
+												<div style="flex-grow: 1;"></div>
+												<div class="heart" onclick="incrementLikeCount(6)">
+												<img src="images/heart_icon.png" alt="Heart Icon" />
+												<span id="likeCount_6">0</span>
+												</div>
+											</div>
+											<h3>호랑우동</h3>
+											<p>일반적인 국물 우동과는 다른 매력의 꾸덕꾸덕한 우동들이 준비되어 있습니다
+
+												직접 만든 육수에 뜨끈하게 끓인 계란 우동도 준비돼 있습니다.
+												
+												포장도 가능하니 언제든지 방문해 주세요!</p>
+											<ul class="actions">
+												<li><a href="horang.html" class="button">More</a></li>
+											</ul>
+										</article>
+									</div>
+								</section>
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Search -->
+								<section id="search" class="alt">
+									<form method="post" action="#">
+										<input type="text" name="query" id="query" placeholder="Search" />
+									</form>
+								</section>
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<!--한식 식당-->
+										<li>
+											<span class="opener">한식</span>
+											<ul>
+												<li><a href="sub1.html">한식</a></li>
+											<ul>
+												<li><a href="korean1.html">고기택배가는남자</a></li>
+												<li><a href="korean2.html">와우 소문난 감자탕</a></li>
+												<li><a href="korean3.html">대박삼겹김치찜&초대박등갈비김치찜</a></li>
+												<li><a href="korean4.html">금계찜닭</a></li>
+											</ul>
+											</ul>
+										</li>
+										<li><a href="#">중식</a></li>
+										<li><a href="#">양식</a></li>
+										
+										<li>
+											<span class="opener">일식</span>
+											<ul>
+												<li><a href="horang.html">호랑우동</a></li>
+											</ul>
+										</li>
+										<!--패스트푸드 식당-->
+										<li>
+											<span class="opener">패스트푸드</span>
+											<ul>
+												<li><a href="sub2.html">패스트푸드</a></li>
+											<ul>
+												<li><a href="fastfood1.html">밀플랜비</a></li>
+												<li><a href="fastfood2.html">부리또앤</a></li>
+												<li><a href="fastfood3.html">에그벅</a></li>
+											</ul>
+											</ul>
+										</li>
+										<!--다이어트 식-->
+										<li>
+											<span class="opener">다이어트식</span>
+											<ul>
+												<li><a href="sub3.html">다이어트식</a></li>
+											<ul>
+												<li><a href="cafe1.html">카페수</a></li>
+												<li><a href="cafe2.html">하루</a></li>
+											</ul>
+											</ul>
+										</li>
+										<li><a href="#">술집</a></li>
+									</ul>
+								</nav>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>오늘의 학식</h2>
+									</header>
+									<div class="mini-posts">
+										<article>
+											<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
+											<h3>천원의 밥상</h3>
+											<p>밥, 부대찌개, 계란찜, 광천김, 김치</p>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic08.jpg" alt="" /></a>
+											<h3>중식</h3>
+											<p>꼬막비빔밥, 양념장, 된장찌개, 감자샐러드, 김치</p>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic09.jpg" alt="" /></a>
+											<h3>석식</h3>
+											<p>밥, 김치찌개, 갈치구이, 연두부, 양념장, 감자크로켓, 깍두기, 파인애플</p>
+										</article>
+									</div>
+								</section>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>숨은 맛집을 알려주세요</h2>
+									</header>
+									<p>학교 근처 맛집을 학우들과 함께 공유하고 싶은 분은 밑 이메일로 보내주세요</p>
+									<ul class="contact">
+										<li class="icon solid fa-envelope"><a href="#">jjaga99@cau.ac.kr</a></li>
+										<li class="icon solid fa-phone">031-670-3114</li>
+										<li class="icon solid fa-home">학교 주소<br />
+										경기 안성시 대덕면 서동대로 4726</li>
+									</ul>
+								</section>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; Untitled. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/hyeonji_heart_index.js"></script>
+
+	</body>
+</html>
