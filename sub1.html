@@ -1,0 +1,238 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>한식</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/Hyeonji_heart.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="index.html" class="logo"><strong>심현지 • 장승원 </strong>by 표준웹테크놀로지</a>
+									<ul class="icons">
+										<div><button onclick="showSharePopup()">Share</button></div>
+
+									<div id="sharePopup" class="share-popup">
+									  <div class="share-popup-content">
+										<input id="shareLink" type="text" class="share-popup-input" value="index.html">
+										<button class="share-popup-button" onclick="copyLink()">Copy</button>
+										<button class="share-popup-button" onclick="hideSharePopup()">Close</button>
+									  </div>
+									</div>
+									</ul>
+								</header>
+
+							<!-- Banner -->
+								<section id="banner">
+									<div class="content">
+										<header>
+											<h1>한식</h1>
+											<p></p>
+										</header>
+										<p>우리나라 고유의 음식이나 식사</p>
+										
+									</div>
+									<span class="image object">
+										<img src="images/pic12.jpg" alt="" />
+									</span>
+								</section>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>추천 식당</h2>
+									</header>
+									<div class="posts">
+										<article>
+											<a href="#" class="image"><img src="images/고택남/고기만달콤간장.jpg" alt="" /></a>
+											<div style="display: flex; justify-content: flex-end; align-items: center;">
+												<div style="flex-grow: 1;"></div>
+												<div class="heart" onclick="incrementLikeCount(1)">
+												<img src="images/heart_icon.png" alt="Heart Icon" />
+												<span id="likeCount_1">0</span>
+												</div>
+											</div>
+											<h3>고기택배가는남자</h3>
+											<p>고택남만의 노하우로 336시간 숙성과 연육작업을 거친 고기만을 사용하여 고객님들께서 집에서도 최상급의 고기 식사를 하실 수 있습니다.</p>
+											<ul class="actions">
+												<li><a href="korean1.html" class="button">More</a></li>
+											</ul>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/와우 소문난 감자탕/간장뼈찜.jpg" alt="" /></a>
+											<div style="display: flex; justify-content: flex-end; align-items: center;">
+												<div style="flex-grow: 1;"></div>
+												<div class="heart" onclick="incrementLikeCount(2)">
+												<img src="images/heart_icon.png" alt="Heart Icon" />
+												<span id="likeCount_2">0</span>
+												</div>
+											</div>
+											<h3>와우 소문난 감자탕</h3>
+											<p>중앙대학교 후문에 위치하고 있는 맛집으로 모든 조리과정에 애니워터정수물을 사용하여 고객님들께 안전한 먹거리를 제공하는 외식업소입니다. 나의 가족이 먹는다는 마음으로 정성을다해 조리해 드리겠습니다. </p>
+											<ul class="actions">
+												<li><a href="korean2.html" class="button">More</a></li>
+											</ul>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/김치찜/등갈비김치찜.jpg" alt="" /></a>
+											<div style="display: flex; justify-content: flex-end; align-items: center;">
+												<div style="flex-grow: 1;"></div>
+												<div class="heart" onclick="incrementLikeCount(3)">
+												<img src="images/heart_icon.png" alt="Heart Icon" />
+												<span id="likeCount_3">0</span>
+												</div>
+											</div>
+											<h3>대박삼겹김치찜<br>
+												&초대박등갈비김치찜</h3>
+											<p>믿고 드실 수 있는것 만 사용합니다. 직접 특제 육수를 만들어서 사용합니다. 김치는 따로 수시간 동안 정성스럽게 조리하여 사용하고 있습니다. 믿고 드시면 좋은 결과가 있으실 거라 확신합니다.</p>
+											<ul class="actions">
+												<li><a href="korean3.html" class="button">More</a></li>
+											</ul>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/금계/트러플짜장찜닭.jpg" alt="" /></a>
+											<div style="display: flex; justify-content: flex-end; align-items: center;">
+												<div style="flex-grow: 1;"></div>
+												<div class="heart" onclick="incrementLikeCount(4)">
+												<img src="images/heart_icon.png" alt="Heart Icon" />
+												<span id="likeCount_4">0</span>
+												</div>
+											</div>
+											<h3>금계찜닭</h3>
+											<p>오늘은 후회 없는 선택, 기본 소스 금계 찜닭으로~!!
+												우리에겐 내일이 있잖아요!
+												드리는 즉시, 지금 여기가 안동!</p>
+											<ul class="actions">
+												<li><a href="korean4.html" class="button">More</a></li>
+											</ul>
+										</article>
+									</div>
+								</section>
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Search -->
+								<section id="search" class="alt">
+									<form method="post" action="#">
+										<input type="text" name="query" id="query" placeholder="Search" />
+									</form>
+								</section>
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<!--한식 식당-->
+										<li>
+											<span class="opener">한식</span>
+											<ul>
+												<li><a href="sub1.html">한식</a></li>
+											<ul>
+												<li><a href="korean1.html">고기택배가는남자</a></li>
+												<li><a href="korean2.html">와우 소문난 감자탕</a></li>
+												<li><a href="korean3.html">대박삼겹김치찜&초대박등갈비김치찜</a></li>
+												<li><a href="korean4.html">금계찜닭</a></li>
+											</ul>
+											</ul>
+										</li>
+										<li><a href="#">중식</a></li>
+										<li><a href="#">양식</a></li>
+										
+										<li>
+											<span class="opener">일식</span>
+											<ul>
+												<li><a href="horang.html">호랑우동</a></li>
+											</ul>
+										</li>
+										<!--패스트푸드 식당-->
+										<li>
+											<span class="opener">패스트푸드</span>
+											<ul>
+												<li><a href="sub2.html">패스트푸드</a></li>
+											<ul>
+												<li><a href="fastfood1.html">밀플랜비</a></li>
+												<li><a href="fastfood2.html">부리또앤</a></li>
+												<li><a href="fastfood3.html">에그벅</a></li>
+											</ul>
+											</ul>
+										</li>
+										<!--다이어트 식-->
+										<li>
+											<span class="opener">다이어트식</span>
+											<ul>
+												<li><a href="sub3.html">다이어트식</a></li>
+											<ul>
+												<li><a href="cafe1.html">카페수</a></li>
+												<li><a href="cafe2.html">하루</a></li>
+											</ul>
+											</ul>
+										</li>
+										<li><a href="#">술집</a></li>
+									</ul>
+								</nav>
+								
+								<section>
+									<header class="major">
+										<h2>오늘의 학식</h2>
+									</header>
+									<div class="mini-posts">
+										<article>
+											<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
+											<h3>천원의 밥상</h3>
+											<p>밥, 부대찌개, 계란찜, 광천김, 김치</p>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic08.jpg" alt="" /></a>
+											<h3>중식</h3>
+											<p>꼬막비빔밥, 양념장, 된장찌개, 감자샐러드, 김치</p>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic09.jpg" alt="" /></a>
+											<h3>석식</h3>
+											<p>밥, 김치찌개, 갈치구이, 연두부, 양념장, 감자크로켓, 깍두기, 파인애플</p>
+										</article>
+									</div>
+								</section>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; Untitled. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/hyeonji_heart_index.js"></script>
+
+	</body>
+</html>
